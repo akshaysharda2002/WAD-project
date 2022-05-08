@@ -1,0 +1,352 @@
+body,html{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+  /* background-color: rgb(126, 121, 121);*/
+    width: 100%;
+    
+}
+body >img{
+    width: 100%;
+    height: 100vh;
+    border-radius: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+.banner {
+     text-align: center;
+     display: flex;
+     margin: 0%;
+    padding: 3cm 0%;
+     justify-content: center;
+     color: gold;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 40px;
+     width: 100%;
+     text-shadow: 1px 1px 2px black, 0 0 25px brown, 0 0 5px darkblue;
+ }
+.banner p{
+    padding: 5cm 0%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+}
+.banner a{
+    position: absolute;
+    font-size: 30px;
+    background: rgb(241, 245, 43);
+    padding: 12px;
+    width: 4cm;
+    color: black;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    bottom: 5cm; border-radius: 5em;
+   
+}
+.logo{
+    display: block;
+    width: 10%;
+    float:left;  
+    
+}
+img{
+    padding: 8px 20px;
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+.common_top{
+    height: 50px;
+}
+ul{
+    position: absolute;
+    list-style-type:none;
+    left: 12cm;
+}
+li{display: inline-block;
+    font-size: 25px;
+    text-align: right;
+    
+}
+li a:hover {
+    color:gold;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    position : absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+    background-size: 3px 3px;
+    z-index: 2;
+}
+
+
+  .main {
+      position: absolute;
+      right: 1cm;
+      justify-content: right;
+      top: 1rem;
+    width: 350px;
+    height: 300px;
+    margin: 5em auto;
+
+    border-radius: 1.5em;
+  /*  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);*/
+}
+
+.sign {
+    padding-top: 35px;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un {
+width: 76%;
+color: white;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: solid;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 1px solid gold;
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+    padding-top: 20px;
+}
+
+.pass {
+        width: 76%;
+color: white;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid gold;
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+}
+
+.submit {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, red, #f53d3d);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    padding-top: 15px;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none
+}
+.f1{
+    height: 80vh;
+    
+    position: relative;
+    
+    padding: 5%;
+
+}
+.f1 p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
+    top: 0.8cm;
+    position: relative;
+}
+
+.f1 .gain{
+    height: 60vh;
+    width: 20%;
+    background-color: rgb(231, 161, 231);
+    position: relative;
+    top: 4cm;
+    display: inline-block;
+    margin-left: 10%;
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 20px;
+    
+}
+.gain img{
+    margin-right: 20%;
+    justify-content: center;
+    width: 150%;
+    height: 80%;
+    position: relative;
+    left: -3.3cm;
+    top: 1.2cm;
+    
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 20px;
+    opacity: 0;
+    color: white;
+    transition: opacity 0.5s;
+}
+.content p{
+    top: 2cm;
+    color: white;
+}
+.content:hover{
+    opacity: 1;
+}
+.f1 .yoga{
+    height: 60vh;
+    width: 20%;
+    background-color: rgb(255, 121, 73);
+    position: relative;
+    top: 2cm;
+    display: inline-block;
+    margin-left: 10%;
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 20px;
+    
+    
+}
+.yoga img{
+   width: 250%;
+   margin: 0%;
+   padding: 0%;
+    position: relative;
+    top: 1cm;
+    height: 85%;
+    left: -4cm;
+}
+
+.f1 .zumba{
+    height: 60vh;
+    width: 20%;
+    background-color: rgb(138, 255, 138);
+    position: relative;
+    top: 0cm;
+    display: inline-block;
+    margin-left: 10%;
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 20px;
+}.zumba img{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+     position: relative;
+     top: 1cm;
+     height: 80%;
+     left: 0cm;
+ }
+ .f2{
+     position: relative;
+     height: 60vh;
+     width: 100%;
+     
+     
+ }
+ .f2_content{
+     text-align: center;
+     width: 55%;
+     height: 60vh;
+     background-image: linear-gradient(to right,burlywood,rgba(255, 92, 92, 0.856));
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .f2_content h2{
+     text-align: left;
+     justify-content: center;
+     position: relative;
+     top: 1cm;
+     left: 5cm;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ .f2_content button{
+     position: relative;
+     top: 3cm;
+     left: -2cm;
+     padding: 15px 20px;
+     background-color: rgb(240, 87, 49);
+     color: white;
+     border-radius: 5px;
+     font-weight: bold;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .f2_image{
+     display: inline-block;
+     width: 45%;
+     background-image: url("gym_community.webp")  ;
+    height: 60vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    }
+
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+
+}
